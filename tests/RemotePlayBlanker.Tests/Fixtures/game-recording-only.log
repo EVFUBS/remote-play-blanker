@@ -1,0 +1,82 @@
+[2026-11-20 22:53:49][35.111829] libav: Cannot load nvcuda.dll
+[2026-11-20 22:53:49][35.111908] libav: Could not dynamically load CUDA
+[2026-11-20 22:53:49][35.111967] libav: Cannot load nvcuda.dll
+[2026-11-20 22:53:49][35.112007] libav: Could not dynamically load CUDA
+[2026-11-20 22:53:51][37.547524] Adding process 5080 for gameID 5185890
+[2026-11-20 22:53:51][37.569812] Clearing capture only gameID
+[2026-11-20 22:53:51][37.569843] Setting capture only gameID to 5185890
+[2026-11-20 22:53:51][37.569866] ------------------------------------------------------------------------------------------------------
+[2026-11-20 22:53:51][37.569883] Starting new game recording session for 5185890
+[2026-11-20 22:53:51][37.576857] Creating new audio encoder for codec 5
+[2026-11-20 22:53:51][37.583684] Encoder audio init succeeded, now have 1 encoder(s)
+[2026-11-20 22:53:51][37.584456] Refreshing process list for game 5185890
+[2026-11-20 22:53:51][37.584551] 1 game pids rooted at pid 5080:
+[2026-11-20 22:53:51][37.584575] - 5080
+[2026-11-20 22:53:51][37.587102] Recording system audio
+[2026-11-20 22:53:51][37.593292] [System Windows] Recording on device: Speakers (Realtek(R) Audio)
+[2026-11-20 22:53:51][37.595078] Audio client mix format:
+[2026-11-20 22:53:51][37.595108] 	format: 65534
+[2026-11-20 22:53:51][37.595128] 	channels: 2
+[2026-11-20 22:53:51][37.595148] 	samples/sec: 48000
+[2026-11-20 22:53:51][37.595167] 	bytes/sec: 384000
+[2026-11-20 22:53:51][37.595187] 	alignment: 8
+[2026-11-20 22:53:51][37.595200] 	bits/sample: 32
+[2026-11-20 22:53:51][37.595211] 	channel mask: 0x3
+[2026-11-20 22:53:51][37.595227] 	data format: {00000003-0000-0010-8000-00AA00389B71}
+[2026-11-20 22:53:51][37.595405] Initializing audio with 2 channels and 48000 samples/sec
+[2026-11-20 22:53:52][38.037598] Refreshing process list for game 5185890
+[2026-11-20 22:53:52][38.037709] 1 game pids rooted at pid 5080:
+[2026-11-20 22:53:52][38.037730] - 5080
+[2026-11-20 22:53:52][38.047196] [Voice Windows] Recording on device: Microphone (Steam Streaming Microphone)
+[2026-11-20 22:53:52][38.047606] Audio client mix format:
+[2026-11-20 22:53:52][38.047631] 	format: 65534
+[2026-11-20 22:53:52][38.047650] 	channels: 2
+[2026-11-20 22:53:52][38.047667] 	samples/sec: 48000
+[2026-11-20 22:53:52][38.047684] 	bytes/sec: 384000
+[2026-11-20 22:53:52][38.047708] 	alignment: 8
+[2026-11-20 22:53:52][38.047726] 	bits/sample: 32
+[2026-11-20 22:53:52][38.047743] 	channel mask: 0x3
+[2026-11-20 22:53:52][38.047763] 	data format: {00000003-0000-0010-8000-00AA00389B71}
+[2026-11-20 22:53:52][38.047961] Initializing audio with 2 channels and 48000 samples/sec
+[2026-11-20 22:53:52][38.074444] Started voice recorder
+[2026-11-20 22:53:52][38.447202] Refreshing process list for game 5185890
+[2026-11-20 22:53:52][38.447316] 1 game pids rooted at pid 5080:
+[2026-11-20 22:53:52][38.447336] - 5080
+[2026-11-20 22:53:52][38.839716] Adding window 131986 (1) for process 5080 and gameID 5185890
+[2026-11-20 22:53:52][38.899145] Changing record window <redacted>
+[2026-11-20 22:53:52][38.899175] Video capture state changed
+[2026-11-20 22:53:52][38.899425] Window title set to <redacted>
+[2026-11-20 22:53:52][38.901256] Video capture state changed
+[2026-11-20 22:53:52][38.901344] >>> Switching video stream from NONE to GameOverlay_MovieStream_5080
+[2026-11-20 22:53:52][38.901852] Changing adapter [old=0][new=101278]
+[2026-11-20 22:53:52][38.901891] Building new pipeline
+[2026-11-20 22:53:52][38.901936] Trying to create an encoder for recording: [hardware_enabled=true][hardware_suppressed=false]
+[2026-11-20 22:53:52][38.901964] Allowed Codecs: 5,4
+[2026-11-20 22:53:53][38.983913] CGameStreamVideoStageAMF: Using minimum number of reference frames: 1
+[2026-11-20 22:53:53][38.985016] Created encoder AMF for codec 5
+[2026-11-20 22:53:53][39.009544] Video Encoder Changed
+[2026-11-20 22:53:53][39.009581] >>> Saw first frame, starting a session
+[2026-11-20 22:53:53][39.120450] Game Recording - Recording Started [recording=bg_5185890_20261120_225353]
+[2026-11-20 22:53:53][39.135718] >>> First audio pts is 196.963230s
+[2026-11-20 22:53:53][39.135986] >>> Recording new resolution 2560x1440 using bitrate 22000kbps
+[2026-11-20 22:53:53][39.136010] >>> Capture method set to Game polled D3D11 NV12 + AMF HEVC
+[2026-11-20 22:53:53][39.141832] >>> First video pts is 197.016032s, first video PTS is 0.133342s
+[2026-11-20 22:53:53][39.141862] Retention interval for background recording game 5185890 is 7200 seconds
+[2026-11-20 22:53:53][39.166502] >>> Audio deltas: first audio frame 196.963230s, first video frame 197.016032s, first video PTS 0.133342s. Resulting first audio sample is -2534 (-0.052792s)
+[2026-11-20 22:53:56][42.239404]   attempted to delete D:\SteamVideos\video\bg_5185890_20261119_194845, maxKeepMS=1516977, newDurationMS=1516325: OK
+[2026-11-20 23:22:01][1727.692412] Removing window 131986 for process 5080 and gameID 5185890
+[2026-11-20 23:22:01][1727.706515] >>> Switching video stream from GameOverlay_MovieStream_5080 to NONE
+[2026-11-20 23:22:01][1727.709162] Lost Video Stream
+[2026-11-20 23:22:01][1727.773273] >>> Closing session due to losing video stream
+[2026-11-20 23:22:01][1727.783718] Game Recording - Recording Stopped [recording=bg_5185890_20261120_225353]
+[2026-11-20 23:22:01][1727.784949] Game Recording - Recording Started [recording=bg_5185890_20261120_232201]
+[2026-11-20 23:22:01][1727.785239] >>> First audio pts is 1885.645897s
+[2026-11-20 23:22:01][1727.786853]   attempted to delete D:\SteamVideos\video\bg_3669620_20261119_215815, maxKeepMS=1087836, newDurationMS=1085470: OK
+[2026-11-20 23:22:04][1730.057102] Encoding complete
+[2026-11-20 23:22:04][1730.072241] Stopping voice recorder
+[2026-11-20 23:22:04][1730.107742] Game Recording - Recording Stopped [recording=bg_5185890_20261120_232201]
+[2026-11-20 23:22:04][1730.107990] Stopped game recording session
+[2026-11-20 23:22:04][1730.108013] ------------------------------------------------------------------------------------------------------
+[2026-11-20 23:22:04][1730.109829] Game Recording - game stopped [gameid=5185890]
+[2026-11-20 23:22:04][1730.109917] Removing process 5080 for gameID 5185890
+[2026-11-20 23:22:04][1730.117705]   attempted to delete D:\SteamVideos\video\bg_5185890_20261120_232201 - entire folder

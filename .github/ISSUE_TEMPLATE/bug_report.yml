@@ -1,0 +1,74 @@
+name: Bug report
+description: Something didn't work. Using tray icon → "Report a problem…" fills in some of this for you.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! The quickest way to get this fixed is the **diagnostics file**:
+        right-click the tray icon → **Report a problem…**. It's saved to your Desktop with IP addresses,
+        window titles, your user name and PC name removed.
+
+        **Screens stuck black?** Press **Ctrl+Alt+Shift+M**, or **Win+P → Extend**.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: |
+        I started streaming to my Steam Deck. The monitors turned off, but when I ended the stream the left one stayed off.
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics file
+      description: Drag the `RemotePlayBlanker-diagnostics-….zip` from your Desktop into this box. If you can't, say why.
+      placeholder: Drop the zip here
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Happened once
+    validations:
+      required: true
+
+  - type: input
+    id: client
+    attributes:
+      label: Device you stream to
+      placeholder: Steam Deck / laptop / phone (Steam Link) / TV / ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: setup
+    attributes:
+      label: Your monitors and graphics card
+      description: Optional, as the diagnostics file includes most of this. Mention anything unusual (TV, HDR, docks, KVM switches, two GPUs, a laptop screen...).
+      placeholder: 3 monitors (27" 1440p 144 Hz main, 1080p right, 1440p portrait left), AMD RX 6800
+
+  - type: input
+    id: version
+    attributes:
+      label: Remote Play Blanker version
+      description: Shown in the settings window footer.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2 (build 26100.xxxx)
+    validations:
+      required: true

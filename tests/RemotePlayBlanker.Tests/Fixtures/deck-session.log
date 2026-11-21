@@ -1,0 +1,257 @@
+[2026-11-20 23:36:41][2607.486128] Adding process 33704 for gameID 3669620
+[2026-11-20 23:36:41][2607.494430] Clearing capture only gameID
+[2026-11-20 23:36:41][2607.496918] Streaming initialized and listening on port 27031
+[2026-11-20 23:36:41][2607.501814] Streaming session running; can't start recording
+[2026-11-20 23:36:41][2607.501844] Streaming session running; can't start recording
+[2026-11-20 23:36:41][2607.588162] Adding process 33348 for gameID 3669620
+[2026-11-20 23:36:42][2608.652406] Adding window 197136 (1) for process 33704 and gameID 3669620
+[2026-11-20 23:36:42][2608.802000] Streaming started to steamdeck at x.x.x.x:36722, audio channels = 2, MTU = 1468
+[2026-11-20 23:36:42][2608.802024] Streaming quality: k_EStreamQualityBeautiful
+[2026-11-20 23:36:42][2608.802037] Streaming bitrate: Unlimited
+[2026-11-20 23:36:42][2608.802048] Device form factor: computer
+[2026-11-20 23:36:42][2608.802209] Maximum capture: 1920x1080 59.00 FPS
+[2026-11-20 23:36:42][2608.802229] Video Streaming: enabled
+[2026-11-20 23:36:42][2608.802241] Audio Streaming: enabled
+[2026-11-20 23:36:42][2608.802251] Input Streaming: enabled
+[2026-11-20 23:36:42][2608.802541] =====================================================================
+[2026-11-20 23:36:42][2608.802563] Game: Warhammer Survivors (3669620)
+[2026-11-20 23:36:42][2608.802972] Setting maximum bitrate to 250000 Kbit/s
+[2026-11-20 23:36:42][2608.803240] Creating new audio encoder for codec 3
+[2026-11-20 23:36:42][2608.803378] Encoder audio init succeeded, now have 1 encoder(s)
+[2026-11-20 23:36:42][2608.805337] Streamed game has created a window
+[2026-11-20 23:36:42][2608.805679] Bringing streamed game to foreground - success
+[2026-11-20 23:36:42][2608.854712] Changing record window <redacted>
+[2026-11-20 23:36:42][2608.854758] Video capture state changed
+[2026-11-20 23:36:42][2608.855227] Window title set to <redacted>
+[2026-11-20 23:36:42][2608.957713] >>> Starting desktop stream
+[2026-11-20 23:36:42][2608.958125] Video capture state changed
+[2026-11-20 23:36:42][2608.958148] SynchronizeClientState(): setting capture size 2560x1440
+[2026-11-20 23:36:42][2608.958222] SynchronizeClientState(): setting title to <redacted>
+[2026-11-20 23:36:42][2608.958272] SynchronizeClientState(): setting icon 32x32
+[2026-11-20 23:36:42][2608.958346] SynchronizeClientState(): setting cursor to 65543
+[2026-11-20 23:36:42][2608.958377] SynchronizeClientState(): setting keymap
+[2026-11-20 23:36:42][2608.958426] SynchronizeClientState(): setting activity to k_EStreamActivityGame: Warhammer Survivors
+[2026-11-20 23:36:42][2608.961910] Recording system audio
+[2026-11-20 23:36:43][2608.967563] [System Windows] Recording on device: Speakers (Steam Streaming Speakers)
+[2026-11-20 23:36:43][2608.968221] Audio client mix format:
+[2026-11-20 23:36:43][2608.968250] 	format: 65534
+[2026-11-20 23:36:43][2608.968267] 	channels: 2
+[2026-11-20 23:36:43][2608.968283] 	samples/sec: 48000
+[2026-11-20 23:36:43][2608.968305] 	bytes/sec: 384000
+[2026-11-20 23:36:43][2608.968325] 	alignment: 8
+[2026-11-20 23:36:43][2608.968346] 	bits/sample: 32
+[2026-11-20 23:36:43][2608.968364] 	channel mask: 0x3
+[2026-11-20 23:36:43][2608.968384] 	data format: {00000003-0000-0010-8000-00AA00389B71}
+[2026-11-20 23:36:43][2608.968567] Initializing audio with 2 channels and 48000 samples/sec
+[2026-11-20 23:36:43][2608.971330] CLIENT: Got control packet k_EStreamControlSetQoS
+[2026-11-20 23:36:43][2608.971359] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2026-11-20 23:36:43][2608.971376] CLIENT: Starting audio stream: frequency=48000, channels=2
+[2026-11-20 23:36:43][2608.971392] CLIENT: Opened audio device: format=2, channels=2, frequency=48000
+[2026-11-20 23:36:43][2608.971409] CLIENT: Initialized audio decoder: codec=3, sample rate=48000, channels=2
+[2026-11-20 23:36:43][2608.971432] CLIENT: Got control packet k_EStreamControlStartAudioData
+[2026-11-20 23:36:43][2608.971454] CLIENT: Got control packet k_EStreamControlSetSpectatorMode
+[2026-11-20 23:36:43][2608.971632] SynchronizeClientState(): setting cursor hidden
+[2026-11-20 23:36:43][2608.971718] SynchronizeClientState(): setting cursor to 0
+[2026-11-20 23:36:43][2608.975763] Audio mix: start=2766696262, returned=0
+[2026-11-20 23:36:43][2608.975817] Audio source [Speakers (Steam Streaming Speakers)]: init=0, adjustment=0, through=0, last_start=0, mixed=0, drop_before=0, drop_after=0
+[2026-11-20 23:36:43][2609.016880] >>> Switching video stream from NONE to Desktop_MovieStream
+[2026-11-20 23:36:43][2609.016981] Changing adapter [old=0][new=101278]
+[2026-11-20 23:36:43][2609.016997] Building new pipeline
+[2026-11-20 23:36:43][2609.017109] Trying to create an encoder for streaming: [hardware_enabled=true][hardware_suppressed=false]
+[2026-11-20 23:36:43][2609.017130] Allowed Codecs: 5,4
+[2026-11-20 23:36:43][2609.032370] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2026-11-20 23:36:43][2609.032406] CLIENT: Got control packet k_EStreamControlSetTitle
+[2026-11-20 23:36:43][2609.032417] CLIENT: Got control packet k_EStreamControlSetIcon
+[2026-11-20 23:36:43][2609.032427] CLIENT: Got control packet k_EStreamControlSetCursor
+[2026-11-20 23:36:43][2609.032440] CLIENT: Got control packet k_EStreamControlSetKeymap
+[2026-11-20 23:36:43][2609.032456] CLIENT: Got control packet k_EStreamControlSetActivity
+[2026-11-20 23:36:43][2609.032469] CLIENT: Got control packet k_EStreamControlHideCursor
+[2026-11-20 23:36:43][2609.032483] CLIENT: Got control packet k_EStreamControlSetCursor
+[2026-11-20 23:36:43][2609.069724] CGameStreamVideoStageAMF: Using minimum number of reference frames: 1
+[2026-11-20 23:36:43][2609.070531] Created encoder AMF for codec 5
+[2026-11-20 23:36:43][2609.070665] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x18b9e
+[2026-11-20 23:36:43][2609.070724] Video adapter: AMD Radeon RX 6800, vendor ID: 0x1002, device ID: 0x73bf
+[2026-11-20 23:36:43][2609.086469] CLIENT: Got control packet k_EStreamControlSetCursorImage
+[2026-11-20 23:36:43][2609.146122] Video Encoder Changed
+[2026-11-20 23:36:43][2609.148371] >>> Capture method set to Desktop DWM shared NT NV12 + AMF HEVC
+[2026-11-20 23:36:43][2609.152083] >>> Capture resolution set to 1920x1080
+[2026-11-20 23:36:43][2609.152108] >>> Capture colorspace set to BT.709 full range
+[2026-11-20 23:36:43][2609.165403] dynamicbitrate: tgt:15.00 link:15.00 lp:15.00 meas:0.00 inst:0.00 dec:0.00 dr_p:1.00 dr_d:1.00 pflags:(0 0) pavg:78.9 pmax:78.9
+[2026-11-20 23:36:43][2609.165435] dynamicbitrate: Evt hist rec 997.50 Mbit/s for 0.50 evts/10s
+[2026-11-20 23:36:43][2609.253690] CLIENT: Sending HID device 28de/1205/2 Valve Software Steam Deck Controller at /dev/hidraw2
+[2026-11-20 23:36:43][2609.253719] CLIENT: Sending HID device 2dc8/301b/-1  8BitDo Ultimate 2C Wireless at sdl://3
+[2026-11-20 23:36:43][2609.253731] CLIENT: Got control packet k_EStreamControlStartVideoData
+[2026-11-20 23:36:43][2609.253743] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2026-11-20 23:36:43][2609.295805] >>> Client video decoder set to VAAPI Vulkan hardware decoding
+[2026-11-20 23:36:43][2609.295833] CLIENT: ffmpeg verbose: Trying to use DRM render node for device 0.
+[2026-11-20 23:36:43][2609.295846] CLIENT: ffmpeg verbose: libva: VA-API version 1.22.0
+[2026-11-20 23:36:43][2609.295858] CLIENT: ffmpeg verbose: libva: Trying to open /usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/radeonsi_drv_video.so
+[2026-11-20 23:36:43][2609.295871] CLIENT: ffmpeg verbose: libva: Found init function __vaDriverInit_1_22
+[2026-11-20 23:36:43][2609.295884] CLIENT: ffmpeg verbose: libva: va_openDriver() returns 0
+[2026-11-20 23:36:43][2609.295896] CLIENT: ffmpeg verbose: Initialised VAAPI connection: version 1.22
+[2026-11-20 23:36:43][2609.295910] CLIENT: ffmpeg verbose: VAAPI driver: Mesa Gallium driver 26.1.2 for AMD Custom GPU 0405 (radeonsi, vangogh, ACO, DRM 3.65, 6.18.50-valve2-1-neptune-618-gc7289a96b14d).
+[2026-11-20 23:36:43][2609.295924] CLIENT: ffmpeg verbose: Matched driver string as known nonstandard driver "radeonsi (HEVC encoder workarounds)", setting quirks (0x30).
+[2026-11-20 23:36:43][2609.295937] CLIENT: VAAPI Vulkan hardware decoding
+[2026-11-20 23:36:43][2609.295958] dynamicbitrate: ignore early video overflow (0.150 < 5.000)
+[2026-11-20 23:36:43][2609.902038] >>> Stopped desktop stream
+[2026-11-20 23:36:43][2609.902076] Video capture state changed
+[2026-11-20 23:36:44][2610.000797] >>> Switching video stream from Desktop_MovieStream to GameOverlay_MovieStream_33704
+[2026-11-20 23:36:44][2610.016485] >>> Capture method set to Game D3D11 shared NT NV12 + AMF HEVC
+[2026-11-20 23:36:44][2610.075859] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2026-11-20 23:36:44][2610.768756] dynamicbitrate: ignore early video overflow (1.623 < 5.000)
+[2026-11-20 23:36:44][2610.768793] Slow framerate: game 6.86, capture 0.00, convert 0.00, encode 0.00, network 129.75, decode 0.56, display 7.16 (network)
+[2026-11-20 23:36:44][2610.768813] Setting target framerate: 59.86 [timing: game 6.86, capture 0.00, convert 0.00, encode 0.00, network 129.75, decode 0.56, display 7.16 (network)]
+[2026-11-20 23:36:44][2610.909601] CLIENT: Targeting 59.86 FPS
+[2026-11-20 23:36:44][2610.909632] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2026-11-20 23:36:44][2610.909646] CLIENT: SDL Mapping for 2dc8/301b: 0500a769c82d00001b30000000006800,*,a:b0,b:b1,back:b4,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b5,leftshoulder:b9,leftstick:b7,lefttrigger:a4,leftx:a0,lefty:a1,rightshoulder:b10,rightstick:b8,righttrigger:a5,rightx:a2,righty:a3,start:b6,x:b2,y:b3,paddle1:b12,paddle2:b11,crc:69a7,platform:Linux,
+[2026-11-20 23:36:45][2611.198209] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:45][2611.198247] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:45][2611.198263] CLIENT: Got control packet k_EStreamControlControllerPersonalizationUpdate
+[2026-11-20 23:36:45][2611.198280] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:45][2611.198299] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:45][2611.198317] CLIENT: Got control packet k_EStreamControlControllerPersonalizationUpdate
+[2026-11-20 23:36:45][2611.198336] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:45][2611.198354] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:45][2611.198372] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:45][2611.198392] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:45][2611.198414] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:45][2611.472034] dynamicbitrate: ignore early video overflow (2.326 < 5.000)
+[2026-11-20 23:36:45][2611.756205] Slow framerate: game 33.08, capture 0.00, convert 0.00, encode 0.00, network 44.27, decode 0.61, display 4.81 (network)
+[2026-11-20 23:36:46][2612.756585] Slow framerate: game 43.34, capture 0.00, convert 0.00, encode 0.00, network 2.74, decode 0.54, display 5.34 (game)
+[2026-11-20 23:36:46][2612.756670] Setting target framerate: 59.86 [timing: game 43.34, capture 0.00, convert 0.00, encode 0.00, network 2.74, decode 0.54, display 5.34 (game)]
+[2026-11-20 23:36:46][2612.834040] CLIENT: Targeting 59.86 FPS
+[2026-11-20 23:36:46][2612.834093] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2026-11-20 23:36:47][2613.741414] Slow framerate: game 39.06, capture 0.00, convert 0.00, encode 0.00, network 0.58, decode 0.55, display 6.95 (game)
+[2026-11-20 23:36:48][2614.167642] dynamicbitrate: tgt:87.89 link:87.89 lp:20.98 meas:0.13 inst:1933.35 dec:250.00 dr_p:1.00 dr_d:1.00 pflags:(0 24) pavg:41.5 pmax:325.3
+[2026-11-20 23:36:48][2614.167676] dynamicbitrate: Evt hist rec 997.50 Mbit/s for 0.50 evts/10s
+[2026-11-20 23:36:48][2614.846245] Slow framerate: game 36.40, capture 0.00, convert 0.00, encode 0.00, network 2.51, decode 0.50, display 15.25 (game)
+[2026-11-20 23:36:49][2615.849246] Setting target framerate: 59.86 [timing: game 21.47, capture 0.00, convert 0.00, encode 0.00, network 1.94, decode 0.49, display 12.99]
+[2026-11-20 23:36:49][2615.864842] CLIENT: Targeting 59.86 FPS
+[2026-11-20 23:36:49][2615.864881] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2026-11-20 23:36:53][2619.175084] dynamicbitrate: tgt:222.37 link:222.37 lp:119.50 meas:0.11 inst:469.84 dec:250.00 dr_p:1.00 dr_d:1.00 pflags:(0 0) pavg:21.6 pmax:10.6
+[2026-11-20 23:36:53][2619.175116] dynamicbitrate: Evt hist rec 997.50 Mbit/s for 0.50 evts/10s
+[2026-11-20 23:36:57][2623.066774] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:57][2623.066798] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:57][2623.214208] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:57][2623.214237] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:57][2623.313396] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:57][2623.313420] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2026-11-20 23:36:58][2624.187700] dynamicbitrate: tgt:240.00 link:245.46 lp:192.81 meas:0.10 inst:3602.02 dec:250.00 dr_p:1.00 dr_d:1.00 pflags:(0 0) pavg:3.8 pmax:9.3
+[2026-11-20 23:36:58][2624.187731] dynamicbitrate: Evt hist rec 997.50 Mbit/s for 0.50 evts/10s
+[2026-11-20 23:37:00][2626.028802] SynchronizeClientState(): setting cursor visible
+[2026-11-20 23:37:00][2626.028859] SynchronizeClientState(): setting cursor to 1311320
+[2026-11-20 23:37:00][2626.228720] Removing window 197136 for process 33704 and gameID 3669620
+[2026-11-20 23:37:00][2626.228836] Changing record window <redacted>
+[2026-11-20 23:37:00][2626.228864] Window title set to <redacted>
+[2026-11-20 23:37:00][2626.229262] SynchronizeClientState(): setting title to <redacted>
+[2026-11-20 23:37:00][2626.229321] SynchronizeClientState(): setting icon 32x32
+[2026-11-20 23:37:00][2626.229389] SynchronizeClientState(): setting cursor to 65539
+[2026-11-20 23:37:00][2626.229415] SynchronizeClientState(): setting activity to k_EStreamActivityDesktop: Steam Controller Configs - Desktop
+[2026-11-20 23:37:00][2626.231817] "SessionStats"
+{
+	"GameNameID"		"Warhammer Survivors"
+	"appid"		"3669620"
+	"TimeSubmitted"		"1795217820"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1080"
+	"CaptureDescriptionID"		"Game D3D11 shared NT NV12 + AMF HEVC"
+	"DecoderDescriptionID"		"VAAPI Vulkan hardware decoding"
+	"BandwidthLimit"		"250000"
+	"FramerateLimit"		"60"
+	"Transport"		"1"
+	"SlowGamePercent"		"17.166900634765625"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"5.48545026779174805"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"113.670005798339844"
+	"StdDevClientBitrate"		"28.3649005889892578"
+	"AvgServerBitrate"		"827.5955810546875"
+	"StdDevServerBitrate"		"505.475921630859375"
+	"AvgLinkBandwidth"		"4727790"
+	"StdDevLinkBandwidth"		"7079338"
+	"AvgPingMS"		"14.4071569442749023"
+	"StdDevPingMS"		"19.703155517578125"
+	"AvgCaptureMS"		"0"
+	"StdDevCaptureMS"		"0"
+	"AvgConvertMS"		"0"
+	"StdDevConvertMS"		"0"
+	"AvgEncodeMS"		"0"
+	"StdDevEncodeMS"		"0"
+	"AvgNetworkMS"		"11.5432825088500977"
+	"StdDevNetworkMS"		"40.8873939514160156"
+	"AvgDecodeMS"		"0.524613499641418457"
+	"StdDevDecodeMS"		"0.128940582275390625"
+	"AvgDisplayMS"		"7.86545467376708984"
+	"StdDevDisplayMS"		"4.81286430358886719"
+	"AvgFrameMS"		"23.3098106384277344"
+	"StdDevFrameMS"		"53.5895805358886719"
+	"AvgFPS"		"61.0759201049804688"
+	"StdDevFPS"		"18.9326629638671875"
+	"BigPicture"		"0"
+	"KeyboardMouseInput"		"0"
+	"SteamControllerInput"		"1"
+	"TouchControllerInput"		"0"
+	"GameControllerInput"		"1"
+	"XBox360ControllerInput"		"0"
+	"XBoxOneControllerInput"		"0"
+	"PS3ControllerInput"		"0"
+	"PS4ControllerInput"		"0"
+	"PS5ControllerInput"		"0"
+	"OtherControllerInput"		"1"
+	"GameControllerVID"		"11720"
+	"GameControllerPID"		"12315"
+	"WasSpectating"		"0"
+	"RemotePlayTogether"		"0"
+}
+[2026-11-20 23:37:00][2626.235507] Adding process 10332 for gameID 3669620
+[2026-11-20 23:37:00][2626.296063] Encoding complete
+[2026-11-20 23:37:00][2626.421388] Restoring default audio device: Speakers (Realtek(R) Audio)
+[2026-11-20 23:37:00][2626.461869] Clearing capture only gameID
+[2026-11-20 23:37:00][2626.461907] Setting capture only gameID to 3669620
+[2026-11-20 23:37:00][2626.482734] Clearing capture only gameID
+[2026-11-20 23:37:00][2626.482789] Setting capture only gameID to 3669620
+[2026-11-20 23:37:00][2626.482816] ------------------------------------------------------------------------------------------------------
+[2026-11-20 23:37:00][2626.482837] Starting new game recording session for 3669620
+[2026-11-20 23:37:00][2626.491513] Creating new audio encoder for codec 5
+[2026-11-20 23:37:00][2626.492077] Encoder audio init succeeded, now have 1 encoder(s)
+[2026-11-20 23:37:00][2626.493257] Refreshing process list for game 3669620
+[2026-11-20 23:37:00][2626.493576] 2 game pids rooted at pid 33704:
+[2026-11-20 23:37:00][2626.493623] - 33704,33348
+[2026-11-20 23:37:00][2626.495033] Recording system audio
+[2026-11-20 23:37:00][2626.502359] [System Windows] Recording on device: Speakers (Realtek(R) Audio)
+[2026-11-20 23:37:00][2626.503145] Audio client mix format:
+[2026-11-20 23:37:00][2626.503173] 	format: 65534
+[2026-11-20 23:37:00][2626.503190] 	channels: 2
+[2026-11-20 23:37:00][2626.503208] 	samples/sec: 48000
+[2026-11-20 23:37:00][2626.503226] 	bytes/sec: 384000
+[2026-11-20 23:37:00][2626.503244] 	alignment: 8
+[2026-11-20 23:37:00][2626.503262] 	bits/sample: 32
+[2026-11-20 23:37:00][2626.503278] 	channel mask: 0x3
+[2026-11-20 23:37:00][2626.503300] 	data format: {00000003-0000-0010-8000-00AA00389B71}
+[2026-11-20 23:37:00][2626.503474] Initializing audio with 2 channels and 48000 samples/sec
+[2026-11-20 23:37:00][2626.519486] [Voice Windows] Recording on device: Microphone (Steam Streaming Microphone)
+[2026-11-20 23:37:00][2626.520115] Audio client mix format:
+[2026-11-20 23:37:00][2626.520177] 	format: 65534
+[2026-11-20 23:37:00][2626.520215] 	channels: 2
+[2026-11-20 23:37:00][2626.520239] 	samples/sec: 48000
+[2026-11-20 23:37:00][2626.520270] 	bytes/sec: 384000
+[2026-11-20 23:37:00][2626.520292] 	alignment: 8
+[2026-11-20 23:37:00][2626.520338] 	bits/sample: 32
+[2026-11-20 23:37:00][2626.520374] 	channel mask: 0x3
+[2026-11-20 23:37:00][2626.520401] 	data format: {00000003-0000-0010-8000-00AA00389B71}
+[2026-11-20 23:37:00][2626.521728] Initializing audio with 2 channels and 48000 samples/sec
+[2026-11-20 23:37:00][2626.553093] Started voice recorder
+[2026-11-20 23:37:00][2626.555314] Audio mix: start=2784384565, returned=0
+[2026-11-20 23:37:00][2626.555353] Audio source [Speakers (Realtek(R) Audio)]: init=0, adjustment=0, through=0, last_start=0, mixed=0, drop_before=0, drop_after=0
+[2026-11-20 23:37:00][2626.555423] Audio source [Voice (Microphone (Steam Streaming Microphone))]: init=0, adjustment=0, through=0, last_start=0, mixed=0, drop_before=0, drop_after=0
+[2026-11-20 23:37:02][2628.359122] Encoding complete
+[2026-11-20 23:37:02][2628.375127] Stopping voice recorder
+[2026-11-20 23:37:02][2628.392415] Stopped game recording session
+[2026-11-20 23:37:02][2628.392446] ------------------------------------------------------------------------------------------------------
+[2026-11-20 23:37:02][2628.392876] Game Recording - game stopped [gameid=3669620]
+[2026-11-20 23:37:02][2628.392986] Removing process 10332 for gameID 3669620
+[2026-11-20 23:37:02][2628.393036] Removing process 33348 for gameID 3669620
+[2026-11-20 23:37:02][2628.393071] Removing process 33704 for gameID 3669620

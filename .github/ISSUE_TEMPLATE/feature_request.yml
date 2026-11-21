@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest an idea or improvement.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like it to do?
+      description: Describe the situation and what you'd like to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Your setup (optional)
+      description: Device you stream to, monitors, anything relevant.

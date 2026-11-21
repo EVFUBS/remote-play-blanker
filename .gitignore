@@ -1,0 +1,10 @@
+bin/
+obj/
+publish/
+dist/
+TestResults/
+*.user
+.vs/
+.vscode/
+.idea/
+tools/preview.png
